@@ -1,0 +1,194 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(
+        to right,
+        rgba(236,233,241,0.78),
+        rgba(243,241,247,0.78),
+        rgba(231,237,245,0.78)
+    ),
+    url("https://wallpapercave.com/wp/24t57jN.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    color: #444;
+}
+
+/* HEADER */
+
+header{
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    color: #5f5870;
+    font-size: 45px;
+    letter-spacing: 3px;
+
+    text-shadow: 2px 2px 8px rgba(255,255,255,0.4);
+}
+
+/* NAVIGATION */
+
+nav{
+    background: rgba(255,255,255,0.5);
+
+    padding: 18px;
+
+    text-align: center;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+nav a{
+    text-decoration: none;
+
+    color: #5f5870;
+
+    margin: 15px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #9d8db8;
+
+    letter-spacing: 1px;
+}
+
+/* MAIN BOX */
+
+.container{
+
+    width: 75%;
+
+    margin: auto;
+
+    margin-top: 50px;
+
+    background: rgba(255,255,255,0.75);
+
+    backdrop-filter: blur(10px);
+
+    padding: 50px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* BIG TITLE */
+
+.main-title{
+
+    font-size: 55px;
+
+    color: #4f495f;
+
+    margin-bottom: 30px;
+
+    letter-spacing: 4px;
+
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* PROFILE IMAGE */
+
+img{
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* TEXT */
+
+h2,h3{
+    color: #6d6482;
+}
+
+p{
+    line-height: 1.8;
+}
+
+/* BUTTON */
+
+button{
+    padding: 12px 24px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #9f92b7;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    margin: 5px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+button:hover{
+    background: #85779f;
+
+    transform: scale(1.05);
+}
+
+/* INPUT */
+
+input{
+    padding: 12px;
+
+    width: 250px;
+
+    border-radius: 10px;
+
+    border: 1px solid #d6d1df;
+
+    background: #ffffff;
+
+    outline: none;
+}
+
+/* RESULT */
+
+#result,
+#bmiResult,
+#taxResult,
+#convertResult{
+
+    font-weight: bold;
+
+    margin-top: 20px;
+
+    color: #5f5870;
+}
